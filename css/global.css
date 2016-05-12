@@ -1,0 +1,47 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;	
+}
+
+h1 { 
+	font-family: 'Roboto', sans-serif;
+ 	font-weight: 100; 
+ 	font-size: 48px;
+ 	text-align: center;
+}
+
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.center-me-h{
+	margin: 0 auto;
+}
+
+.center-children {
+  text-align: center;
+}
+
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.centered{
+	text-align: center;
+}
+
+.mailbox{
+	margin: 0 auto;
+	width: 400px;
+}
